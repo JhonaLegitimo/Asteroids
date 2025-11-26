@@ -3,7 +3,7 @@ import json
 import math
 from datetime import datetime
 
-all = ["log_state", "log_event"]
+__all__ = ["log_state", "log_event"]
 
 _FPS = 60
 _MAX_SECONDS = 16
